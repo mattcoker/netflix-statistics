@@ -1,0 +1,16 @@
+body {
+    width: 450px;
+}
+
+#main-title {
+    padding: 15px 20px 0 20px;
+}
+
+ #placeholder-container p {
+    padding: 0 20px 15px 20px;
+ }
+
+ .content-section {
+    padding: 0 20px;
+    margin-bottom: 1.5rem !important;
+}

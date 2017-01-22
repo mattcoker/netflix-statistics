@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Netflix Statistics</title>
+        <link rel="stylesheet" href="/css/bulma.css" type="text/css" />
+        <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" />
+        <link rel="stylesheet" href="/css/custom.css" type="text/css" />
+        <script src="/js/jquery.min.js" type="text/javascript"></script>
+        <script src="/js/inject-fa.js" type="text/javascript"></script>
+        <script src="/js/popup.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <p id="main-title" class="title">Netflix Stats</p>
+        <div id="placeholder-container">
+            <hr>
+            <p>Fetching data...</p>
+            <p>(This could take a minute or two)</p>
+        </div>
+        <div id="main-content" class="is-hidden">
+        <!-- <div id="dmain-content"> -->
+            <div class="tabs is-boxed is-medium is-centered">
+                <ul>
+                    <li class="is-active" data-section="time-spent">
+                        <a>
+                            <span class="icon is-small"><i class="fa fa-clock-o"></i></span>
+                            <span>Time Spent</span>
+                        </a>
+                    </li>
+                    <li data-section="analysis">
+                        <a>
+                            <span class="icon is-small"><i class="fa fa-bar-chart"></i></span>
+                            <span>Analysis</span>
+                        </a>
+                    </li>
+                    <li data-section="cool-facts">
+                        <a>
+                            <span class="icon is-small"><i class="fa fa-trophy"></i></span>
+                            <span>Cool Facts</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="time-spent" class="content-section content">
+                <h4>Last Month:</h4>
+                <p id="last-month-spent"></p>
+
+                <h4>Last Year:</h4>
+                <p id="last-year-spent"></p>
+
+                <h4>All Time:</h4>
+                <p id="all-time-spent"></p>
+            </div>
+            <div id="analysis" class="content-section is-hidden"><p>Coming soon!</p></div>
+            <div id="cool-facts" class="content-section content is-hidden">
+                <h4>Last Watched Movie/Show:</h4>
+                <p id="last-item-watched"></p>
+
+                <h4>First Watched Movie/Show:</h4>
+                <p id="first-item-watched"></p>
+            </div>
+        </div>
+    </body>
+</html>
