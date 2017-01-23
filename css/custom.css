@@ -6,11 +6,19 @@ body {
     padding: 15px 20px 0 20px;
 }
 
- #placeholder-container p {
+#placeholder-container p {
     padding: 0 20px 15px 20px;
- }
+}
 
- .content-section {
+.content-section {
     padding: 0 20px;
     margin-bottom: 1.5rem !important;
+}
+
+#netflix-link {
+    color: #23d160 !important;
+}
+
+#netflix-link:focus {
+    outline: none;
 }
